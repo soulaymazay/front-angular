@@ -1,0 +1,69 @@
+/* Style général du formulaire */
+.form-group {
+    max-width: 600px; /* Augmenté pour élargir le formulaire */
+    margin: 50px auto;
+    padding: 30px; /* Augmenté pour plus de padding à l'intérieur */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 15px; /* Augmenté pour agrandir les champs */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 15px; /* Augmenté pour un bouton plus grand */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px; /* Augmenté pour un texte plus grand */
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+/* Style des messages d'erreur */
+small {
+    color: red;
+    font-size: 12px;
+}
+
+/* Style du message d'erreur de login */
+div[ngIf="loginError"] {
+    margin-top: 15px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Ajustement de la présentation des champs du formulaire */
+.form-group div {
+    margin-bottom: 20px;
+}
+
+/* Arrière-plan de la page entière */
+body {
+    background-color: #0066cc; /* Couleur bleu */
+    height: 100vh; /* S'assure que le bleu couvre toute la hauteur de la page */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}

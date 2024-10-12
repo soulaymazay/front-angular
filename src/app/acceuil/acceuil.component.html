@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatisation d'Hébergement</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            background: #fff;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            min-height: 80vh;
+        }
+
+        .sidebar {
+            width: 250px;
+            background: #0066cc;
+            padding: 20px;
+            color: #fff;
+        }
+
+        .sidebar h2 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 15px;
+        }
+
+        .sidebar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            display: block;
+            padding: 10px;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        .sidebar ul li a:hover {
+            background: #00509e;
+        }
+
+        .content {
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .content h1 {
+            margin-top: 0;
+            font-size: 36px;
+            font-weight: 700;
+            color: #0066cc;
+        }
+
+        .content p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .content .cta-button {
+            display: inline-block;
+            padding: 15px 25px;
+            background: #0066cc;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: background 0.3s;
+            align-self: flex-start;
+        }
+
+        .content .cta-button:hover {
+            background: #00509e;
+        }
+
+        .content .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .stats .stat-item {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            background: #f0f0f0;
+            width: 30%;
+        }
+
+        .stats .stat-item h3 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .stats .stat-item p {
+            margin: 10px 0 0;
+            font-size: 16px;
+            color: #777;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .footer p {
+            margin: 0;
+            color: #777;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="#">Tableau de Bord</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gestion des Comptes</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Paramètres</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div>
+                <h1>Bienvenue sur votre plateforme d'hébergement</h1>
+                <p>Automatisez et gérez tous vos services d'hébergement à partir d'un tableau de bord unique et intuitif. Accédez à des outils puissants qui vous permettent de superviser vos serveurs, gérer vos bases de données, et bien plus encore, le tout en un seul clic.</p>
+                <a href="#" class="cta-button">Commencez maintenant</a>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>250+</h3>
+                    <p>Clients satisfaits</p>
+                </div>
+                <div class="stat-item">
+                    <h3>500+</h3>
+                    <p>Services gérés</p>
+                </div>
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p>Support disponible</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Automatisation d'Hébergement. Tous droits réservés.</p>
+    </div>
+</body>
+</html>
